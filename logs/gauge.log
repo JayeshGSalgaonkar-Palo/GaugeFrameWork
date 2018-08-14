@@ -1,0 +1,604 @@
+12:29:25.961 Plugin java is already installed.
+12:29:25.999 Plugin html-report is already installed.
+12:29:26.010 Plugin xml-report is already installed.
+12:29:26.021 Plugin flash is already installed.
+12:29:26.946 Checking updates...
+12:29:31.954 [ValidationError] C:\Users\Jayesh Salgaonkar\Project1\NewBee_1\specs\Login.spec:13 Step implementation not found => 'Open NewBee'
+12:29:34.766 Plugin [Flash] with pid [1940] has exited
+12:29:34.768 Plugin [Xml Report] with pid [8796] has exited
+12:29:35.471 Plugin [Html Report] with pid [960] has exited
+12:29:35.572 Specifications:	0 executed	0 passed	0 failed	1 skipped
+12:29:35.572 Scenarios:	0 executed	0 passed	0 failed	1 skipped
+12:29:35.572 
+Total time taken: 2.708s
+12:31:12.771 Plugin java is already installed.
+12:31:12.772 Plugin html-report is already installed.
+12:31:12.772 Plugin xml-report is already installed.
+12:31:12.773 Plugin flash is already installed.
+12:31:13.609 Checking updates...
+12:31:15.248 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Go to Gauge Get Started Page" > 
+12:31:15.249 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Go to Gauge Get Started Page" parameterizedStepValue:"Go to Gauge Get Started Page" > > 
+12:31:15.256 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Open the Gauge homepage" > 
+12:31:15.256 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Open the Gauge homepage" parameterizedStepValue:"Open the Gauge homepage" > > 
+12:31:15.257 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Open NewBee" > 
+12:31:15.257 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Open NewBee" parameterizedStepValue:"Open NewBee" > > 
+12:31:15.257 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Type UserName <UserName>" > 
+12:31:15.257 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Type UserName {}" parameterizedStepValue:"Type UserName <UserName>" parameters:"UserName" > > 
+12:31:15.258 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Ensure installation instructions are available" > 
+12:31:15.258 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Ensure installation instructions are available" parameterizedStepValue:"Ensure installation instructions are available" > > 
+12:31:24.499 # User Creation & User Login
+12:31:24.504 ## User Creation
+12:31:24.508 * Open NewBee
+
+12:31:29.202 Failed Step: Open NewBee
+12:31:29.202 Error Message: java.lang.AssertionError: 
+Expecting:
+ <"Well, hello there, newbee!">
+to contain:
+ <"NewBee Portal"> 
+12:31:29.202 Specification: specs\Login.spec:13
+12:31:29.202 Stacktrace: 
+Gauge.StepImplementation.OpenNewBee(StepImplementation.java:46)
+12:31:30.626 Plugin [Flash] with pid [7788] has exited
+12:31:30.725 Plugin [Xml Report] with pid [5100] has exited
+12:31:30.727 Plugin [Html Report] with pid [7816] has exited
+12:31:31.129 Specifications:	1 executed	0 passed	1 failed	0 skipped
+12:31:31.129 Scenarios:	1 executed	0 passed	1 failed	0 skipped
+12:31:31.129 
+Total time taken: 13.894s
+13:57:56.481 Plugin java is already installed.
+13:57:56.483 Plugin html-report is already installed.
+13:57:56.490 Plugin xml-report is already installed.
+13:57:56.495 Plugin flash is already installed.
+13:57:57.346 Checking updates...
+13:58:02.185 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Click Login Button" > 
+13:58:02.186 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Click Login Button" parameterizedStepValue:"Click Login Button" > > 
+13:58:02.193 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Go to Gauge Get Started Page" > 
+13:58:02.193 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Go to Gauge Get Started Page" parameterizedStepValue:"Go to Gauge Get Started Page" > > 
+13:58:02.193 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Open the Gauge homepage" > 
+13:58:02.194 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Open the Gauge homepage" parameterizedStepValue:"Open the Gauge homepage" > > 
+13:58:02.194 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Access NewBee Website" > 
+13:58:02.194 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Access NewBee Website" parameterizedStepValue:"Access NewBee Website" > > 
+13:58:02.194 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Enter UserID <UserId>" > 
+13:58:02.194 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Enter UserID {}" parameterizedStepValue:"Enter UserID <UserId>" parameters:"UserId" > > 
+13:58:02.195 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Enter Password <Password>" > 
+13:58:02.195 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Enter Password {}" parameterizedStepValue:"Enter Password <Password>" parameters:"Password" > > 
+13:58:02.195 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Type UserName <UserName>" > 
+13:58:02.195 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Type UserName {}" parameterizedStepValue:"Type UserName <UserName>" parameters:"UserName" > > 
+13:58:02.195 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Ensure installation instructions are available" > 
+13:58:02.196 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Ensure installation instructions are available" parameterizedStepValue:"Ensure installation instructions are available" > > 
+13:58:20.951 Plugin [Flash] with pid [596] has exited
+13:58:20.951 Plugin [Xml Report] with pid [13448] has exited
+13:58:21.052 Plugin [Html Report] with pid [9728] has exited
+13:58:21.455 Specifications:	1 executed	0 passed	1 failed	0 skipped
+13:58:21.455 Scenarios:	1 executed	0 passed	1 failed	0 skipped
+13:58:21.455 
+Total time taken: 16.578s
+14:03:44.970 Plugin java is already installed.
+14:03:44.971 Plugin html-report is already installed.
+14:03:44.972 Plugin xml-report is already installed.
+14:03:44.973 Plugin flash is already installed.
+14:03:44.993 The following specifications satisfy filter criteria:
+14:03:44.993 specs\Login.spec
+14:03:45.815 Checking updates...
+14:03:48.675 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Click Login Button" > 
+14:03:48.676 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Click Login Button" parameterizedStepValue:"Click Login Button" > > 
+14:03:48.686 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Go to Gauge Get Started Page" > 
+14:03:48.686 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Go to Gauge Get Started Page" parameterizedStepValue:"Go to Gauge Get Started Page" > > 
+14:03:48.687 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Open the Gauge homepage" > 
+14:03:48.687 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Open the Gauge homepage" parameterizedStepValue:"Open the Gauge homepage" > > 
+14:03:48.687 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Access NewBee Website" > 
+14:03:48.687 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Access NewBee Website" parameterizedStepValue:"Access NewBee Website" > > 
+14:03:48.688 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Enter UserID <UserId>" > 
+14:03:48.688 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Enter UserID {}" parameterizedStepValue:"Enter UserID <UserId>" parameters:"UserId" > > 
+14:03:48.690 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Enter Password <Password>" > 
+14:03:48.690 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Enter Password {}" parameterizedStepValue:"Enter Password <Password>" parameters:"Password" > > 
+14:03:48.690 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Type UserName <UserName>" > 
+14:03:48.691 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Type UserName {}" parameterizedStepValue:"Type UserName <UserName>" parameters:"UserName" > > 
+14:03:48.691 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Ensure installation instructions are available" > 
+14:03:48.691 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Ensure installation instructions are available" parameterizedStepValue:"Ensure installation instructions are available" > > 
+14:03:57.244 # User Creation & User Login
+14:03:57.250 ## User Creation
+14:03:57.253 * Access NewBee Website
+
+14:04:00.750 * Login as User "superuser@superuser.com" "123456"
+
+14:04:00.751 * Enter UserID <UserId>
+14:04:01.000 * Enter Password <Password>
+14:04:01.229 * Click Login Button
+14:04:02.463 Plugin [Xml Report] with pid [13556] has exited
+14:04:02.463 Plugin [Html Report] with pid [11016] has exited
+14:04:02.463 Plugin [Flash] with pid [13776] has exited
+14:04:02.563 Specifications:	1 executed	1 passed	0 failed	0 skipped
+14:04:02.563 Scenarios:	1 executed	1 passed	0 failed	0 skipped
+14:04:02.563 
+Total time taken: 12.426s
+14:05:46.299 Plugin java is already installed.
+14:05:46.302 Plugin html-report is already installed.
+14:05:46.304 Plugin xml-report is already installed.
+14:05:46.305 Plugin flash is already installed.
+14:05:46.328 The following specifications satisfy filter criteria:
+14:05:46.328 specs\Login.spec
+14:05:47.116 Checking updates...
+14:05:48.948 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Click Login Button" > 
+14:05:48.949 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Click Login Button" parameterizedStepValue:"Click Login Button" > > 
+14:05:48.962 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Go to Gauge Get Started Page" > 
+14:05:48.962 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Go to Gauge Get Started Page" parameterizedStepValue:"Go to Gauge Get Started Page" > > 
+14:05:48.963 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Open the Gauge homepage" > 
+14:05:48.963 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Open the Gauge homepage" parameterizedStepValue:"Open the Gauge homepage" > > 
+14:05:48.963 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Access NewBee Website" > 
+14:05:48.963 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Access NewBee Website" parameterizedStepValue:"Access NewBee Website" > > 
+14:05:48.964 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Enter UserID <UserId>" > 
+14:05:48.964 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Enter UserID {}" parameterizedStepValue:"Enter UserID <UserId>" parameters:"UserId" > > 
+14:05:48.965 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Enter Password <Password>" > 
+14:05:48.966 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Enter Password {}" parameterizedStepValue:"Enter Password <Password>" parameters:"Password" > > 
+14:05:48.966 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Type UserName <UserName>" > 
+14:05:48.966 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Type UserName {}" parameterizedStepValue:"Type UserName <UserName>" parameters:"UserName" > > 
+14:05:48.966 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Ensure installation instructions are available" > 
+14:05:48.967 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Ensure installation instructions are available" parameterizedStepValue:"Ensure installation instructions are available" > > 
+14:05:57.280 # User Creation & User Login
+14:05:57.281 ## User Creation
+14:05:57.287 * Access NewBee Website
+
+14:06:01.144 Failed Step: Access NewBee Website
+14:06:01.144 Error Message: java.lang.AssertionError: 
+Expecting:
+ <"Well, hello there, newbee!">
+to contain:
+ <"NewBee Portal"> 
+14:06:01.144 Specification: specs\Login.spec:8
+14:06:01.144 Stacktrace: 
+Gauge.StepImplementation.OpenNewBee(StepImplementation.java:46)
+14:06:02.497 Plugin [Flash] with pid [6604] has exited
+14:06:02.597 Plugin [Html Report] with pid [4816] has exited
+14:06:02.598 Plugin [Xml Report] with pid [4344] has exited
+14:06:03.009 Specifications:	1 executed	0 passed	1 failed	0 skipped
+14:06:03.009 Scenarios:	1 executed	0 passed	1 failed	0 skipped
+14:06:03.009 
+Total time taken: 12.198s
+14:08:10.983 Executing => gauge run --tags UserCreation --env UAT --dir=C:\Users\Jayesh Salgaonkar\Project1\NewBee_1 specs\Login.spec:10
+14:08:11.127 Plugin java is already installed.
+14:08:11.131 Plugin html-report is already installed.
+14:08:11.132 Plugin xml-report is already installed.
+14:08:11.134 Plugin flash is already installed.
+14:08:11.151 The following specifications satisfy filter criteria:
+14:08:11.152 specs\Login.spec
+14:08:11.993 Checking updates...
+14:08:13.835 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Click Login Button" > 
+14:08:13.835 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Click Login Button" parameterizedStepValue:"Click Login Button" > > 
+14:08:13.845 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Go to Gauge Get Started Page" > 
+14:08:13.845 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Go to Gauge Get Started Page" parameterizedStepValue:"Go to Gauge Get Started Page" > > 
+14:08:13.846 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Open the Gauge homepage" > 
+14:08:13.846 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Open the Gauge homepage" parameterizedStepValue:"Open the Gauge homepage" > > 
+14:08:13.848 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Access NewBee Website" > 
+14:08:13.848 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Access NewBee Website" parameterizedStepValue:"Access NewBee Website" > > 
+14:08:13.848 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Enter UserID <UserId>" > 
+14:08:13.849 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Enter UserID {}" parameterizedStepValue:"Enter UserID <UserId>" parameters:"UserId" > > 
+14:08:13.851 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Enter Password <Password>" > 
+14:08:13.851 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Enter Password {}" parameterizedStepValue:"Enter Password <Password>" parameters:"Password" > > 
+14:08:13.851 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Type UserName <UserName>" > 
+14:08:13.851 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Type UserName {}" parameterizedStepValue:"Type UserName <UserName>" parameters:"UserName" > > 
+14:08:13.852 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Ensure installation instructions are available" > 
+14:08:13.852 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Ensure installation instructions are available" parameterizedStepValue:"Ensure installation instructions are available" > > 
+14:08:22.013 # User Creation & User Login
+14:08:22.016 ## User Creation
+14:08:22.021 * Access NewBee Website
+
+14:08:25.557 Failed Step: Access NewBee Website
+14:08:25.557 Error Message: java.lang.AssertionError: 
+Expecting:
+ <"Well, hello there, newbee!">
+to contain:
+ <"NewBee Portal"> 
+14:08:25.557 Specification: specs\Login.spec:8
+14:08:25.557 Stacktrace: 
+Gauge.StepImplementation.OpenNewBee(StepImplementation.java:47)
+14:08:25.557 * Login as User "superuser@superuser.com" "123456"
+
+14:08:25.557 * Enter UserID <UserId>
+14:08:25.842 * Enter Password <Password>
+14:08:26.131 * Click Login Button
+14:08:27.548 Failed Step: Click Login Button
+14:08:27.548 Error Message: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"class name","selector":"welcome-page-input-submit"}
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 24 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'DESKTOP-MBF6RPR', ip: '172.16.0.97', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:62136}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e), userDataDir=C:\Users\JAYESH~1\AppData\Local\Temp\scoped_dir5496_25028}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=68.0.3440.106, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 7a59bb825c6caae753e300eeca6292f5
+*** Element info: {Using=class name, value=welcome-page-input-submit}
+14:08:27.548 Specification: specs\Login.spec
+14:08:27.548 Stacktrace: 
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
+org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:457)
+org.openqa.selenium.By$ByClassName.findElement(By.java:391)
+org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
+Gauge.StepImplementation.ClickLoginButton(StepImplementation.java:68)
+14:08:29.053 Plugin [Xml Report] with pid [12704] has exited
+14:08:29.053 Plugin [Flash] with pid [924] has exited
+14:08:29.055 Plugin [Html Report] with pid [9148] has exited
+14:08:29.459 Specifications:	1 executed	0 passed	1 failed	0 skipped
+14:08:29.459 Scenarios:	1 executed	0 passed	1 failed	0 skipped
+14:08:29.459 
+Total time taken: 13.675s
+14:09:47.274 Invalid Command. Usage: gauge run --failed
+14:11:26.340 Executing => gauge run --tags UserCreation --env UAT --dir=C:\Users\Jayesh Salgaonkar\Project1\NewBee_1 specs\Login.spec:10
+14:11:26.469 Plugin java is already installed.
+14:11:26.474 Plugin html-report is already installed.
+14:11:26.476 Plugin xml-report is already installed.
+14:11:26.478 Plugin flash is already installed.
+14:11:26.497 The following specifications satisfy filter criteria:
+14:11:26.497 specs\Login.spec
+14:11:27.320 Checking updates...
+14:11:28.909 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Click Login Button" > 
+14:11:28.909 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Click Login Button" parameterizedStepValue:"Click Login Button" > > 
+14:11:28.917 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Go to Gauge Get Started Page" > 
+14:11:28.917 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Go to Gauge Get Started Page" parameterizedStepValue:"Go to Gauge Get Started Page" > > 
+14:11:28.918 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Open the Gauge homepage" > 
+14:11:28.918 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Open the Gauge homepage" parameterizedStepValue:"Open the Gauge homepage" > > 
+14:11:28.921 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Access NewBee Website" > 
+14:11:28.921 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Access NewBee Website" parameterizedStepValue:"Access NewBee Website" > > 
+14:11:28.921 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Enter UserID <UserId>" > 
+14:11:28.921 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Enter UserID {}" parameterizedStepValue:"Enter UserID <UserId>" parameters:"UserId" > > 
+14:11:28.923 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Enter Password <Password>" > 
+14:11:28.923 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Enter Password {}" parameterizedStepValue:"Enter Password <Password>" parameters:"Password" > > 
+14:11:28.923 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Type UserName <UserName>" > 
+14:11:28.923 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Type UserName {}" parameterizedStepValue:"Type UserName <UserName>" parameters:"UserName" > > 
+14:11:28.924 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Ensure installation instructions are available" > 
+14:11:28.924 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Ensure installation instructions are available" parameterizedStepValue:"Ensure installation instructions are available" > > 
+14:11:37.158 # User Creation & User Login
+14:11:37.164 ## User Creation
+14:11:37.169 * Access NewBee Website
+
+14:11:40.840 
+Failed Step: Access NewBee Website
+14:11:40.840 Error Message: java.lang.AssertionError: 
+Expecting:
+ <"Well, hello there, newbee!">
+to contain:
+ <"NewBee Portal"> 
+14:11:40.840 Specification: specs\Login.spec:8
+14:11:40.840 Stacktrace: 
+Gauge.StepImplementation.OpenNewBee(StepImplementation.java:47)
+14:11:40.840 * Login as User "superuser@superuser.com" "123456"
+
+14:11:40.840 * Enter UserID <UserId>
+14:11:41.143 * Enter Password <Password>
+14:11:41.668 * Click Login Button
+14:11:43.136 
+Failed Step: Click Login Button
+14:11:43.137 Error Message: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"class name","selector":"welcome-page-input-submit"}
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 27 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'DESKTOP-MBF6RPR', ip: '172.16.0.97', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:64531}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e), userDataDir=C:\Users\JAYESH~1\AppData\Local\Temp\scoped_dir6432_8460}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=68.0.3440.106, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 5900ef404002fa32a99af47eca529a3a
+*** Element info: {Using=class name, value=welcome-page-input-submit}
+14:11:43.137 Specification: specs\Login.spec
+14:11:43.137 Stacktrace: 
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
+org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:457)
+org.openqa.selenium.By$ByClassName.findElement(By.java:391)
+org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
+Gauge.StepImplementation.ClickLoginButton(StepImplementation.java:68)
+14:11:45.190 Plugin [Xml Report] with pid [6336] has exited
+14:11:45.190 Plugin [Flash] with pid [10616] has exited
+14:11:45.190 Plugin [Html Report] with pid [8868] has exited
+14:11:45.592 Specifications:	1 executed	0 passed	1 failed	0 skipped
+14:11:45.592 Scenarios:	1 executed	0 passed	1 failed	0 skipped
+14:11:45.592 
+Total time taken: 14.641s
+14:13:52.535 Plugin java is already installed.
+14:13:52.537 Plugin html-report is already installed.
+14:13:52.539 Plugin xml-report is already installed.
+14:13:52.540 Plugin flash is already installed.
+14:13:53.399 Checking updates...
+14:13:58.770 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Click Login Button" > 
+14:13:58.770 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Click Login Button" parameterizedStepValue:"Click Login Button" > > 
+14:13:58.778 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Go to Gauge Get Started Page" > 
+14:13:58.778 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Go to Gauge Get Started Page" parameterizedStepValue:"Go to Gauge Get Started Page" > > 
+14:13:58.779 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Open the Gauge homepage" > 
+14:13:58.779 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Open the Gauge homepage" parameterizedStepValue:"Open the Gauge homepage" > > 
+14:13:58.781 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Access NewBee Website" > 
+14:13:58.781 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Access NewBee Website" parameterizedStepValue:"Access NewBee Website" > > 
+14:13:58.782 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Enter UserID <UserId>" > 
+14:13:58.782 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Enter UserID {}" parameterizedStepValue:"Enter UserID <UserId>" parameters:"UserId" > > 
+14:13:58.783 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Enter Password <Password>" > 
+14:13:58.783 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Enter Password {}" parameterizedStepValue:"Enter Password <Password>" parameters:"Password" > > 
+14:13:58.783 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Type UserName <UserName>" > 
+14:13:58.783 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Type UserName {}" parameterizedStepValue:"Type UserName <UserName>" parameters:"UserName" > > 
+14:13:58.784 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Ensure installation instructions are available" > 
+14:13:58.784 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Ensure installation instructions are available" parameterizedStepValue:"Ensure installation instructions are available" > > 
+14:14:16.611 Plugin [Flash] with pid [2400] has exited
+14:14:16.611 Plugin [Html Report] with pid [7568] has exited
+14:14:16.611 Plugin [Xml Report] with pid [2080] has exited
+14:14:16.914 Specifications:	1 executed	1 passed	0 failed	0 skipped
+14:14:16.914 Scenarios:	1 executed	1 passed	0 failed	0 skipped
+14:14:16.914 
+Total time taken: 15.308s
+14:23:54.253 No failed tests found.
+14:24:17.960 Plugin java is already installed.
+14:24:17.960 Plugin html-report is already installed.
+14:24:17.961 Plugin xml-report is already installed.
+14:24:17.961 Plugin flash is already installed.
+14:24:17.967 The following specifications satisfy filter criteria:
+14:24:17.967 specs\Login.spec
+14:24:18.820 Checking updates...
+14:24:20.677 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Click Login Button" > 
+14:24:20.677 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Click Login Button" parameterizedStepValue:"Click Login Button" > > 
+14:24:20.684 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Login as SuperUser" > 
+14:24:20.685 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Login as SuperUser" parameterizedStepValue:"Login as SuperUser" > > 
+14:24:20.685 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Go to Gauge Get Started Page" > 
+14:24:20.685 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Go to Gauge Get Started Page" parameterizedStepValue:"Go to Gauge Get Started Page" > > 
+14:24:20.685 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Open the Gauge homepage" > 
+14:24:20.685 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Open the Gauge homepage" parameterizedStepValue:"Open the Gauge homepage" > > 
+14:24:20.688 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Access NewBee Website" > 
+14:24:20.688 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Access NewBee Website" parameterizedStepValue:"Access NewBee Website" > > 
+14:24:20.688 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Enter UserID <UserId>" > 
+14:24:20.689 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Enter UserID {}" parameterizedStepValue:"Enter UserID <UserId>" parameters:"UserId" > > 
+14:24:20.690 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Enter Password <Password>" > 
+14:24:20.690 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Enter Password {}" parameterizedStepValue:"Enter Password <Password>" parameters:"Password" > > 
+14:24:20.691 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Type UserName <UserName>" > 
+14:24:20.691 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Type UserName {}" parameterizedStepValue:"Type UserName <UserName>" parameters:"UserName" > > 
+14:24:20.691 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Ensure installation instructions are available" > 
+14:24:20.691 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Ensure installation instructions are available" parameterizedStepValue:"Ensure installation instructions are available" > > 
+14:24:29.007 # User Creation & User Login
+14:24:29.008 ## User Creation
+14:24:29.012 * Access NewBee Website
+
+14:24:32.773 Failed Step: Access NewBee Website
+14:24:32.773 Error Message: java.lang.AssertionError: 
+Expecting:
+ <"Well, hello there, newbee!">
+to contain:
+ <"NewBee Portal"> 
+14:24:32.773 Specification: specs\Login.spec:8
+14:24:32.773 Stacktrace: 
+Gauge.StepImplementation.OpenNewBee(StepImplementation.java:48)
+14:24:32.773 * Login as SuperUser
+
+14:24:34.643 Failed Step: Login as SuperUser
+14:24:34.643 Error Message: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"class name","selector":"welcome-page-input-submit"}
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 22 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'DESKTOP-MBF6RPR', ip: '172.16.0.97', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:55152}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e), userDataDir=C:\Users\JAYESH~1\AppData\Local\Temp\scoped_dir4176_27378}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=68.0.3440.106, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 15d2f8caa50b5d4fb499ebb5c84f3710
+*** Element info: {Using=class name, value=welcome-page-input-submit}
+14:24:34.643 Specification: specs\Login.spec:12
+14:24:34.643 Stacktrace: 
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
+org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:457)
+org.openqa.selenium.By$ByClassName.findElement(By.java:391)
+org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
+Gauge.StepImplementation.ClickLoginButton(StepImplementation.java:69)
+Gauge.StepImplementation.LoginSuperUser(StepImplementation.java:79)
+14:24:36.167 Plugin [Flash] with pid [5328] has exited
+14:24:36.168 Plugin [Xml Report] with pid [3260] has exited
+14:24:36.169 Plugin [Html Report] with pid [6824] has exited
+14:24:36.681 Specifications:	1 executed	0 passed	1 failed	0 skipped
+14:24:36.681 Scenarios:	1 executed	0 passed	1 failed	0 skipped
+14:24:36.681 
+Total time taken: 13.991s
+14:25:59.928 Plugin flash is already installed.
+14:25:59.929 Plugin java is already installed.
+14:25:59.931 Plugin html-report is already installed.
+14:25:59.932 Plugin xml-report is already installed.
+14:25:59.947 The following specifications satisfy filter criteria:
+14:25:59.947 specs\Login.spec
+14:26:00.774 Checking updates...
+14:26:02.646 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Click Login Button" > 
+14:26:02.647 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Click Login Button" parameterizedStepValue:"Click Login Button" > > 
+14:26:02.653 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Login as SuperUser" > 
+14:26:02.654 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Login as SuperUser" parameterizedStepValue:"Login as SuperUser" > > 
+14:26:02.654 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Go to Gauge Get Started Page" > 
+14:26:02.654 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Go to Gauge Get Started Page" parameterizedStepValue:"Go to Gauge Get Started Page" > > 
+14:26:02.654 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Open the Gauge homepage" > 
+14:26:02.654 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Open the Gauge homepage" parameterizedStepValue:"Open the Gauge homepage" > > 
+14:26:02.656 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Access NewBee Website" > 
+14:26:02.656 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Access NewBee Website" parameterizedStepValue:"Access NewBee Website" > > 
+14:26:02.657 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Enter UserID <UserId>" > 
+14:26:02.657 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Enter UserID {}" parameterizedStepValue:"Enter UserID <UserId>" parameters:"UserId" > > 
+14:26:02.658 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Enter Password <Password>" > 
+14:26:02.658 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Enter Password {}" parameterizedStepValue:"Enter Password <Password>" parameters:"Password" > > 
+14:26:02.658 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Type UserName <UserName>" > 
+14:26:02.658 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Type UserName {}" parameterizedStepValue:"Type UserName <UserName>" parameters:"UserName" > > 
+14:26:02.659 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Ensure installation instructions are available" > 
+14:26:02.659 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Ensure installation instructions are available" parameterizedStepValue:"Ensure installation instructions are available" > > 
+14:26:10.905 # User Creation & User Login
+14:26:10.909 ## User Creation
+14:26:10.913 * Access NewBee Website
+
+14:26:14.579 * Login as SuperUser
+
+14:26:16.615 Plugin [Flash] with pid [1204] has exited
+14:26:16.714 Plugin [Xml Report] with pid [724] has exited
+14:26:16.716 Plugin [Html Report] with pid [11664] has exited
+14:26:17.031 Specifications:	1 executed	1 passed	0 failed	0 skipped
+14:26:17.031 Scenarios:	1 executed	1 passed	0 failed	0 skipped
+14:26:17.031 
+Total time taken: 12.57s
+14:29:45.769 Plugin xml-report is already installed.
+14:29:45.770 Plugin flash is already installed.
+14:29:45.770 Plugin java is already installed.
+14:29:45.771 Plugin html-report is already installed.
+14:29:45.778 The following specifications satisfy filter criteria:
+14:29:45.778 specs\Login.spec
+14:29:46.629 Checking updates...
+14:29:48.674 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Click Login Button" > 
+14:29:48.674 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Click Login Button" parameterizedStepValue:"Click Login Button" > > 
+14:29:48.681 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Login as SuperUser" > 
+14:29:48.682 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Login as SuperUser" parameterizedStepValue:"Login as SuperUser" > > 
+14:29:48.682 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Go to Gauge Get Started Page" > 
+14:29:48.682 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Go to Gauge Get Started Page" parameterizedStepValue:"Go to Gauge Get Started Page" > > 
+14:29:48.682 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Open the Gauge homepage" > 
+14:29:48.682 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Open the Gauge homepage" parameterizedStepValue:"Open the Gauge homepage" > > 
+14:29:48.685 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Access NewBee Website" > 
+14:29:48.685 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Access NewBee Website" parameterizedStepValue:"Access NewBee Website" > > 
+14:29:48.685 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Enter UserID <UserId>" > 
+14:29:48.685 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Enter UserID {}" parameterizedStepValue:"Enter UserID <UserId>" parameters:"UserId" > > 
+14:29:48.687 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Enter Password <Password>" > 
+14:29:48.687 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Enter Password {}" parameterizedStepValue:"Enter Password <Password>" parameters:"Password" > > 
+14:29:48.687 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Type UserName <UserName>" > 
+14:29:48.687 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Type UserName {}" parameterizedStepValue:"Type UserName <UserName>" parameters:"UserName" > > 
+14:29:48.688 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Ensure installation instructions are available" > 
+14:29:48.688 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Ensure installation instructions are available" parameterizedStepValue:"Ensure installation instructions are available" > > 
+14:29:57.068 # User Creation & User Login
+14:29:57.069 ## User Creation
+14:29:57.077 * Access NewBee Website
+
+14:30:01.500 * Login as SuperUser
+
+14:30:03.505 Plugin [Html Report] with pid [6480] has exited
+14:30:03.505 Plugin [Xml Report] with pid [8904] has exited
+14:30:03.505 Plugin [Flash] with pid [5468] has exited
+14:30:03.707 Specifications:	1 executed	1 passed	0 failed	0 skipped
+14:30:03.707 Scenarios:	1 executed	1 passed	0 failed	0 skipped
+14:30:03.707 
+Total time taken: 13.402s
+14:35:54.208 Plugin html-report is already installed.
+14:35:54.208 Plugin xml-report is already installed.
+14:35:54.209 Plugin flash is already installed.
+14:35:54.210 Plugin java is already installed.
+14:35:54.216 The following specifications satisfy filter criteria:
+14:35:54.216 specs\Login.spec
+14:35:55.023 Checking updates...
+14:35:56.817 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Click Login Button" > 
+14:35:56.817 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Click Login Button" parameterizedStepValue:"Click Login Button" > > 
+14:35:56.825 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Login as SuperUser" > 
+14:35:56.825 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Login as SuperUser" parameterizedStepValue:"Login as SuperUser" > > 
+14:35:56.825 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Go to Gauge Get Started Page" > 
+14:35:56.825 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Go to Gauge Get Started Page" parameterizedStepValue:"Go to Gauge Get Started Page" > > 
+14:35:56.826 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Open the Gauge homepage" > 
+14:35:56.826 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Open the Gauge homepage" parameterizedStepValue:"Open the Gauge homepage" > > 
+14:35:56.831 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Access NewBee Website" > 
+14:35:56.831 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Access NewBee Website" parameterizedStepValue:"Access NewBee Website" > > 
+14:35:56.831 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Enter UserID <UserId>" > 
+14:35:56.832 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Enter UserID {}" parameterizedStepValue:"Enter UserID <UserId>" parameters:"UserId" > > 
+14:35:56.833 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Enter Password <Password>" > 
+14:35:56.833 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Enter Password {}" parameterizedStepValue:"Enter Password <Password>" parameters:"Password" > > 
+14:35:56.833 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Type UserName <UserName>" > 
+14:35:56.834 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Type UserName {}" parameterizedStepValue:"Type UserName <UserName>" parameters:"UserName" > > 
+14:35:56.834 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Ensure installation instructions are available" > 
+14:35:56.834 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Ensure installation instructions are available" parameterizedStepValue:"Ensure installation instructions are available" > > 
+14:36:05.123 # User Creation & User Login
+14:36:05.126 ## User Creation
+14:36:05.129 * Access NewBee Website
+
+14:36:10.505 * Login as SuperUser
+
+14:36:12.523 Plugin [Html Report] with pid [13436] has exited
+14:36:12.523 Plugin [Flash] with pid [12060] has exited
+14:36:12.523 Plugin [Xml Report] with pid [7184] has exited
+14:36:12.624 Specifications:	1 executed	1 passed	0 failed	0 skipped
+14:36:12.624 Scenarios:	1 executed	1 passed	0 failed	0 skipped
+14:36:12.624 
+Total time taken: 14.285s
+14:37:47.991 Plugin html-report is already installed.
+14:37:47.992 Plugin xml-report is already installed.
+14:37:47.992 Plugin flash is already installed.
+14:37:47.992 Plugin java is already installed.
+14:37:48.002 The following specifications satisfy filter criteria:
+14:37:48.002 specs\Login.spec
+14:37:48.817 Checking updates...
+14:37:50.559 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Click Login Button" > 
+14:37:50.559 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Click Login Button" parameterizedStepValue:"Click Login Button" > > 
+14:37:50.567 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Login as SuperUser" > 
+14:37:50.567 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Login as SuperUser" parameterizedStepValue:"Login as SuperUser" > > 
+14:37:50.567 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Go to Gauge Get Started Page" > 
+14:37:50.567 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Go to Gauge Get Started Page" parameterizedStepValue:"Go to Gauge Get Started Page" > > 
+14:37:50.568 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Open the Gauge homepage" > 
+14:37:50.568 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Open the Gauge homepage" parameterizedStepValue:"Open the Gauge homepage" > > 
+14:37:50.570 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Access NewBee Website" > 
+14:37:50.570 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Access NewBee Website" parameterizedStepValue:"Access NewBee Website" > > 
+14:37:50.571 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Enter UserID <UserId>" > 
+14:37:50.571 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Enter UserID {}" parameterizedStepValue:"Enter UserID <UserId>" parameters:"UserId" > > 
+14:37:50.572 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Enter Password <Password>" > 
+14:37:50.572 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Enter Password {}" parameterizedStepValue:"Enter Password <Password>" parameters:"Password" > > 
+14:37:50.573 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Type UserName <UserName>" > 
+14:37:50.573 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Type UserName {}" parameterizedStepValue:"Type UserName <UserName>" parameters:"UserName" > > 
+14:37:50.573 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Ensure installation instructions are available" > 
+14:37:50.574 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Ensure installation instructions are available" parameterizedStepValue:"Ensure installation instructions are available" > > 
+14:37:59.144 # User Creation & User Login
+14:37:59.148 ## User Creation
+14:37:59.151 * Access NewBee Website
+
+14:38:03.945 * Login as SuperUser
+
+14:38:05.900 Plugin [Flash] with pid [8960] has exited
+14:38:05.996 Plugin [Html Report] with pid [6768] has exited
+14:38:06.000 Plugin [Xml Report] with pid [928] has exited
+14:38:06.202 Specifications:	1 executed	1 passed	0 failed	0 skipped
+14:38:06.202 Scenarios:	1 executed	1 passed	0 failed	0 skipped
+14:38:06.202 
+Total time taken: 13.973s
+14:39:32.117 Plugin java is already installed.
+14:39:32.119 Plugin html-report is already installed.
+14:39:32.120 Plugin xml-report is already installed.
+14:39:32.122 Plugin flash is already installed.
+14:39:32.139 The following specifications satisfy filter criteria:
+14:39:32.139 specs\Login.spec
+14:39:32.940 Checking updates...
+14:39:34.910 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Click Login Button" > 
+14:39:34.910 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Click Login Button" parameterizedStepValue:"Click Login Button" > > 
+14:39:34.919 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Login as SuperUser" > 
+14:39:34.920 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Login as SuperUser" parameterizedStepValue:"Login as SuperUser" > > 
+14:39:34.920 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Go to Gauge Get Started Page" > 
+14:39:34.920 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Go to Gauge Get Started Page" parameterizedStepValue:"Go to Gauge Get Started Page" > > 
+14:39:34.920 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Open the Gauge homepage" > 
+14:39:34.921 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Open the Gauge homepage" parameterizedStepValue:"Open the Gauge homepage" > > 
+14:39:34.923 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Access NewBee Website" > 
+14:39:34.923 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Access NewBee Website" parameterizedStepValue:"Access NewBee Website" > > 
+14:39:34.924 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Enter UserID <UserId>" > 
+14:39:34.924 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Enter UserID {}" parameterizedStepValue:"Enter UserID <UserId>" parameters:"UserId" > > 
+14:39:34.925 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Enter Password <Password>" > 
+14:39:34.925 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Enter Password {}" parameterizedStepValue:"Enter Password <Password>" parameters:"Password" > > 
+14:39:34.926 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Type UserName <UserName>" > 
+14:39:34.926 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Type UserName {}" parameterizedStepValue:"Type UserName <UserName>" parameters:"UserName" > > 
+14:39:34.926 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Ensure installation instructions are available" > 
+14:39:34.926 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Ensure installation instructions are available" parameterizedStepValue:"Ensure installation instructions are available" > > 
+14:39:42.902 # User Creation & User Login
+14:39:42.905 ## User Creation
+14:39:42.908 * Access NewBee Website
+
+14:39:47.416 * Login as SuperUser
+
+14:39:49.363 Plugin [Html Report] with pid [3144] has exited
+14:39:49.363 Plugin [Flash] with pid [2004] has exited
+14:39:49.363 Plugin [Xml Report] with pid [14048] has exited
+14:39:49.564 Specifications:	1 executed	1 passed	0 failed	0 skipped
+14:39:49.564 Scenarios:	1 executed	1 passed	0 failed	0 skipped
+14:39:49.564 
+Total time taken: 13.144s

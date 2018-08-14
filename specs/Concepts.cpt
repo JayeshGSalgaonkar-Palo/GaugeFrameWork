@@ -1,0 +1,7 @@
+Created by Jayesh Salgaonkar on 14/8/2018
+
+This is a concept file with following syntax for each concept.
+# Login as User <UserId> <Password>
+* Enter UserID <UserId>
+* Enter Password <Password>
+* Click Login Button
