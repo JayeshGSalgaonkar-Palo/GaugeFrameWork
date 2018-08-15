@@ -3238,3 +3238,6 @@
 15:24:05.326 Adding specs from C:\Karthik\Repositories\GaugeFrameWork\specs\Login.spec
 15:24:05.326 Initializing steps cache with 3 steps
 15:24:05.326 Gauge daemon initialized and listening on port: 64246
+17:42:35.932 Spec file removed: C:\Karthik\Repositories\GaugeFrameWork\specs\Login.spec
+17:42:35.940 Spec file added / modified: C:\Karthik\Repositories\GaugeFrameWork\specs\Login.spec
+17:42:35.957 Spec file added / modified: C:\Karthik\Repositories\GaugeFrameWork\specs\Login.spec
