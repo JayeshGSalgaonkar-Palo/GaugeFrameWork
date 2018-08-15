@@ -2,8 +2,10 @@
 	"Args": [
 		"run",
 		"--tags",
-		"UserCreation",
-		"--dir=C:\\Users\\Jayesh Salgaonkar\\Project1\\NewBee_1"
+		"Validations",
+		"--dir=C:\\Karthik\\Repositories\\GaugeFrameWork"
 	],
-	"FailedItems": []
+	"FailedItems": [
+		"specs\\Login.spec:20"
+	]
 }

@@ -602,3 +602,415 @@ Total time taken: 13.973s
 14:39:49.564 Scenarios:	1 executed	1 passed	0 failed	0 skipped
 14:39:49.564 
 Total time taken: 13.144s
+16:47:07.282 Plugin java is already installed.
+16:47:07.291 Plugin html-report is already installed.
+16:47:07.292 Compatible version of plugin xml-report not found. Installing plugin xml-report...
+16:47:07.292 Gathering metadata for xml-report
+16:47:08.260 Downloading xml-report-0.2.0-windows.x86_64.zip
+16:47:18.214 Installing plugin xml-report 0.2.0
+16:47:18.264 Successfully installed plugin 'xml-report'.
+16:47:18.269 Plugin flash is already installed.
+16:47:18.295 The following specifications satisfy filter criteria:
+16:47:18.297 specs\Login.spec
+16:47:19.185 Checking updates...
+16:47:21.584 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Click Login Button" > 
+16:47:21.585 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Click Login Button" parameterizedStepValue:"Click Login Button" > > 
+16:47:21.593 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Login as SuperUser" > 
+16:47:21.593 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Login as SuperUser" parameterizedStepValue:"Login as SuperUser" > > 
+16:47:21.595 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Access NewBee Website" > 
+16:47:21.595 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Access NewBee Website" parameterizedStepValue:"Access NewBee Website" > > 
+16:47:21.596 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Add HR Director as Reviewer <FirstName> <LastName> <Email> <AdminLevel> <Hive> <Job Position>" > 
+16:47:21.596 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Add HR Director as Reviewer {} {} {} {} {} {}" parameterizedStepValue:"Add HR Director as Reviewer <FirstName> <LastName> <Email> <AdminLevel> <Hive> <Job Position>" parameters:"FirstName" parameters:"LastName" parameters:"Email" parameters:"AdminLevel" parameters:"Hive" parameters:"Job Position" > > 
+16:47:21.597 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Enter UserID <UserId>" > 
+16:47:21.597 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Enter UserID {}" parameterizedStepValue:"Enter UserID <UserId>" parameters:"UserId" > > 
+16:47:21.598 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Enter Password <Password>" > 
+16:47:21.598 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Enter Password {}" parameterizedStepValue:"Enter Password <Password>" parameters:"Password" > > 
+16:47:30.385 # User Creation & User Login
+16:47:30.405 ## Test AdminLevel, Hive, JobPosition Validations for all 3 Directors
+16:47:30.405 * Access NewBee Website
+
+16:47:34.998 * Login as SuperUser
+
+16:47:36.405 Failed Step: Login as SuperUser
+16:47:36.405 Error Message: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"welcome-page-input-submit"}
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 26 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'DESKTOP-TELPMTR', ip: '172.16.1.159', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:64837}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e), userDataDir=C:\Users\KARTHI~1\AppData\Local\Temp\scoped_dir2580_10782}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=68.0.3440.106, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 907b42892beb04964d8fa2b960d8463e
+*** Element info: {Using=xpath, value=welcome-page-input-submit}
+16:47:36.405 Specification: specs\Login.spec:23
+16:47:36.405 Stacktrace: 
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
+org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:473)
+org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
+utils.WebElementDataStore.getWebElementByUniqueId(WebElementDataStore.java:36)
+Gauge.StepImplementation.ClickLoginButton(StepImplementation.java:41)
+Gauge.StepImplementation.LoginSuperUser(StepImplementation.java:50)
+16:47:37.850 Plugin [Flash] with pid [15932] has exited
+16:47:37.850 Plugin [Xml Report] with pid [16152] has exited
+16:47:38.654 Plugin [Html Report] with pid [13808] has exited
+16:47:38.955 Specifications:	1 executed	0 passed	1 failed	0 skipped
+16:47:38.955 Scenarios:	1 executed	0 passed	1 failed	0 skipped
+16:47:38.955 
+Total time taken: 14.709s
+16:48:14.952 Plugin html-report is already installed.
+16:48:14.954 Plugin xml-report is already installed.
+16:48:14.955 Plugin flash is already installed.
+16:48:14.956 Plugin java is already installed.
+16:48:14.974 The following specifications satisfy filter criteria:
+16:48:14.975 specs\Login.spec
+16:48:15.738 Checking updates...
+16:48:18.434 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Click Login Button" > 
+16:48:18.434 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Click Login Button" parameterizedStepValue:"Click Login Button" > > 
+16:48:18.445 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Login as SuperUser" > 
+16:48:18.445 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Login as SuperUser" parameterizedStepValue:"Login as SuperUser" > > 
+16:48:18.447 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Access NewBee Website" > 
+16:48:18.447 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Access NewBee Website" parameterizedStepValue:"Access NewBee Website" > > 
+16:48:18.448 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Add HR Director as Reviewer <FirstName> <LastName> <Email> <AdminLevel> <Hive> <Job Position>" > 
+16:48:18.448 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Add HR Director as Reviewer {} {} {} {} {} {}" parameterizedStepValue:"Add HR Director as Reviewer <FirstName> <LastName> <Email> <AdminLevel> <Hive> <Job Position>" parameters:"FirstName" parameters:"LastName" parameters:"Email" parameters:"AdminLevel" parameters:"Hive" parameters:"Job Position" > > 
+16:48:18.450 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Enter UserID <UserId>" > 
+16:48:18.450 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Enter UserID {}" parameterizedStepValue:"Enter UserID <UserId>" parameters:"UserId" > > 
+16:48:18.450 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Enter Password <Password>" > 
+16:48:18.450 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Enter Password {}" parameterizedStepValue:"Enter Password <Password>" parameters:"Password" > > 
+16:48:26.222 # User Creation & User Login
+16:48:26.222 ## Test AdminLevel, Hive, JobPosition Validations for all 3 Directors
+16:48:26.244 * Access NewBee Website
+
+16:48:31.139 * Login as SuperUser
+
+16:48:32.782 Failed Step: Login as SuperUser
+16:48:32.783 Error Message: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"class name","selector":"menu-staff-right"}
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 25 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'DESKTOP-TELPMTR', ip: '172.16.1.159', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:64899}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e), userDataDir=C:\Users\KARTHI~1\AppData\Local\Temp\scoped_dir8796_16269}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=68.0.3440.106, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 6907b673375cb1a241c6ac2dede2bc17
+*** Element info: {Using=class name, value=menu-staff-right}
+16:48:32.783 Specification: specs\Login.spec:23
+16:48:32.783 Stacktrace: 
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
+org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:457)
+org.openqa.selenium.By$ByClassName.findElement(By.java:391)
+org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
+Gauge.StepImplementation.LoginSuperUser(StepImplementation.java:52)
+16:48:34.126 Plugin [Html Report] with pid [10740] has exited
+16:48:34.126 Plugin [Xml Report] with pid [10620] has exited
+16:48:34.126 Plugin [Flash] with pid [2920] has exited
+16:48:34.428 Specifications:	1 executed	0 passed	1 failed	0 skipped
+16:48:34.428 Scenarios:	1 executed	0 passed	1 failed	0 skipped
+16:48:34.428 
+Total time taken: 14.191s
+16:49:27.094 Plugin java is already installed.
+16:49:27.095 Plugin html-report is already installed.
+16:49:27.097 Plugin xml-report is already installed.
+16:49:27.098 Plugin flash is already installed.
+16:49:27.115 The following specifications satisfy filter criteria:
+16:49:27.115 specs\Login.spec
+16:49:27.945 Checking updates...
+16:49:30.167 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Click Login Button" > 
+16:49:30.167 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Click Login Button" parameterizedStepValue:"Click Login Button" > > 
+16:49:30.174 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Login as SuperUser" > 
+16:49:30.174 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Login as SuperUser" parameterizedStepValue:"Login as SuperUser" > > 
+16:49:30.176 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Access NewBee Website" > 
+16:49:30.177 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Access NewBee Website" parameterizedStepValue:"Access NewBee Website" > > 
+16:49:30.177 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Add HR Director as Reviewer <FirstName> <LastName> <Email> <AdminLevel> <Hive> <Job Position>" > 
+16:49:30.177 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Add HR Director as Reviewer {} {} {} {} {} {}" parameterizedStepValue:"Add HR Director as Reviewer <FirstName> <LastName> <Email> <AdminLevel> <Hive> <Job Position>" parameters:"FirstName" parameters:"LastName" parameters:"Email" parameters:"AdminLevel" parameters:"Hive" parameters:"Job Position" > > 
+16:49:30.178 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Enter UserID <UserId>" > 
+16:49:30.178 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Enter UserID {}" parameterizedStepValue:"Enter UserID <UserId>" parameters:"UserId" > > 
+16:49:30.179 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Enter Password <Password>" > 
+16:49:30.179 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Enter Password {}" parameterizedStepValue:"Enter Password <Password>" parameters:"Password" > > 
+16:49:37.931 # User Creation & User Login
+16:49:37.931 ## Test AdminLevel, Hive, JobPosition Validations for all 3 Directors
+16:49:37.992 * Access NewBee Website
+
+16:49:42.401 * Login as SuperUser
+
+16:49:43.761 Failed Step: Login as SuperUser
+16:49:43.761 Error Message: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"class name","selector":"menu-staff-right"}
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 26 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'DESKTOP-TELPMTR', ip: '172.16.1.159', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:64962}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e), userDataDir=C:\Users\KARTHI~1\AppData\Local\Temp\scoped_dir16212_26146}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=68.0.3440.106, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: ff1056cc61a71c6efa1f579c551efe87
+*** Element info: {Using=class name, value=menu-staff-right}
+16:49:43.761 Specification: specs\Login.spec:23
+16:49:43.761 Stacktrace: 
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
+org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:457)
+org.openqa.selenium.By$ByClassName.findElement(By.java:391)
+org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
+Gauge.StepImplementation.LoginSuperUser(StepImplementation.java:52)
+16:49:45.003 Plugin [Flash] with pid [720] has exited
+16:49:45.003 Plugin [Xml Report] with pid [14448] has exited
+16:49:45.003 Plugin [Html Report] with pid [14132] has exited
+16:49:45.305 Specifications:	1 executed	0 passed	1 failed	0 skipped
+16:49:45.305 Scenarios:	1 executed	0 passed	1 failed	0 skipped
+16:49:45.305 
+Total time taken: 13.378s
+16:52:13.167 Plugin java is already installed.
+16:52:13.168 Plugin html-report is already installed.
+16:52:13.168 Plugin xml-report is already installed.
+16:52:13.169 Plugin flash is already installed.
+16:52:13.176 The following specifications satisfy filter criteria:
+16:52:13.176 specs\Login.spec
+16:52:14.013 Checking updates...
+16:52:16.226 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Click Login Button" > 
+16:52:16.226 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Click Login Button" parameterizedStepValue:"Click Login Button" > > 
+16:52:16.235 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Login as SuperUser" > 
+16:52:16.235 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Login as SuperUser" parameterizedStepValue:"Login as SuperUser" > > 
+16:52:16.238 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Access NewBee Website" > 
+16:52:16.238 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Access NewBee Website" parameterizedStepValue:"Access NewBee Website" > > 
+16:52:16.238 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Add HR Director as Reviewer <FirstName> <LastName> <Email> <AdminLevel> <Hive> <Job Position>" > 
+16:52:16.239 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Add HR Director as Reviewer {} {} {} {} {} {}" parameterizedStepValue:"Add HR Director as Reviewer <FirstName> <LastName> <Email> <AdminLevel> <Hive> <Job Position>" parameters:"FirstName" parameters:"LastName" parameters:"Email" parameters:"AdminLevel" parameters:"Hive" parameters:"Job Position" > > 
+16:52:16.240 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Enter UserID <UserId>" > 
+16:52:16.240 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Enter UserID {}" parameterizedStepValue:"Enter UserID <UserId>" parameters:"UserId" > > 
+16:52:16.241 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Enter Password <Password>" > 
+16:52:16.241 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Enter Password {}" parameterizedStepValue:"Enter Password <Password>" parameters:"Password" > > 
+16:52:23.877 # User Creation & User Login
+16:52:23.880 ## Test AdminLevel, Hive, JobPosition Validations for all 3 Directors
+16:52:23.882 * Access NewBee Website
+
+16:52:28.411 * Login as SuperUser
+
+16:52:30.012 Failed Step: Login as SuperUser
+16:52:30.012 Error Message: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"class name","selector":"menu-staff-right"}
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 33 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'DESKTOP-TELPMTR', ip: '172.16.1.159', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:65033}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e), userDataDir=C:\Users\KARTHI~1\AppData\Local\Temp\scoped_dir15888_23588}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=68.0.3440.106, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 1fb477c2d9722b5b63ced1e6ce7299f1
+*** Element info: {Using=class name, value=menu-staff-right}
+16:52:30.012 Specification: specs\Login.spec:23
+16:52:30.012 Stacktrace: 
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
+org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:457)
+org.openqa.selenium.By$ByClassName.findElement(By.java:391)
+org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
+Gauge.StepImplementation.LoginSuperUser(StepImplementation.java:52)
+16:52:31.307 Plugin [Html Report] with pid [632] has exited
+16:52:31.307 Plugin [Xml Report] with pid [5044] has exited
+16:52:31.307 Plugin [Flash] with pid [15616] has exited
+16:52:31.608 Specifications:	1 executed	0 passed	1 failed	0 skipped
+16:52:31.608 Scenarios:	1 executed	0 passed	1 failed	0 skipped
+16:52:31.608 
+Total time taken: 13.563s
+16:54:33.212 Plugin java is already installed.
+16:54:33.214 Plugin html-report is already installed.
+16:54:33.216 Plugin xml-report is already installed.
+16:54:33.217 Plugin flash is already installed.
+16:54:33.236 The following specifications satisfy filter criteria:
+16:54:33.236 specs\Login.spec
+16:54:34.047 Checking updates...
+16:54:36.145 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Click Login Button" > 
+16:54:36.145 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Click Login Button" parameterizedStepValue:"Click Login Button" > > 
+16:54:36.156 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Login as SuperUser" > 
+16:54:36.156 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Login as SuperUser" parameterizedStepValue:"Login as SuperUser" > > 
+16:54:36.159 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Access NewBee Website" > 
+16:54:36.159 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Access NewBee Website" parameterizedStepValue:"Access NewBee Website" > > 
+16:54:36.159 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Add HR Director as Reviewer <FirstName> <LastName> <Email> <AdminLevel> <Hive> <Job Position>" > 
+16:54:36.159 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Add HR Director as Reviewer {} {} {} {} {} {}" parameterizedStepValue:"Add HR Director as Reviewer <FirstName> <LastName> <Email> <AdminLevel> <Hive> <Job Position>" parameters:"FirstName" parameters:"LastName" parameters:"Email" parameters:"AdminLevel" parameters:"Hive" parameters:"Job Position" > > 
+16:54:36.161 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Enter UserID <UserId>" > 
+16:54:36.161 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Enter UserID {}" parameterizedStepValue:"Enter UserID <UserId>" parameters:"UserId" > > 
+16:54:36.162 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Enter Password <Password>" > 
+16:54:36.162 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Enter Password {}" parameterizedStepValue:"Enter Password <Password>" parameters:"Password" > > 
+16:54:43.932 # User Creation & User Login
+16:54:43.935 ## Test AdminLevel, Hive, JobPosition Validations for all 3 Directors
+16:54:43.939 * Access NewBee Website
+
+16:54:47.775 * Login as SuperUser
+
+16:54:48.995 Failed Step: Login as SuperUser
+16:54:48.995 Error Message: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"class name","selector":"menu-staff-right"}
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 22 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'DESKTOP-TELPMTR', ip: '172.16.1.159', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:65108}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e), userDataDir=C:\Users\KARTHI~1\AppData\Local\Temp\scoped_dir8224_14641}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=68.0.3440.106, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 84a2e6892da51b249d4f3e1c2b486f3f
+*** Element info: {Using=class name, value=menu-staff-right}
+16:54:48.995 Specification: specs\Login.spec:23
+16:54:48.995 Stacktrace: 
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
+org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:457)
+org.openqa.selenium.By$ByClassName.findElement(By.java:391)
+org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
+Gauge.StepImplementation.LoginSuperUser(StepImplementation.java:52)
+16:54:50.203 Plugin [Flash] with pid [11120] has exited
+16:54:50.203 Plugin [Xml Report] with pid [8892] has exited
+16:54:50.204 Plugin [Html Report] with pid [8240] has exited
+16:54:50.505 Specifications:	1 executed	0 passed	1 failed	0 skipped
+16:54:50.505 Scenarios:	1 executed	0 passed	1 failed	0 skipped
+16:54:50.505 
+Total time taken: 12.525s
+16:56:11.584 Plugin xml-report is already installed.
+16:56:11.585 Plugin flash is already installed.
+16:56:11.585 Plugin java is already installed.
+16:56:11.586 Plugin html-report is already installed.
+16:56:11.592 The following specifications satisfy filter criteria:
+16:56:11.592 specs\Login.spec
+16:56:12.388 Checking updates...
+16:56:14.180 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Click Login Button" > 
+16:56:14.180 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Click Login Button" parameterizedStepValue:"Click Login Button" > > 
+16:56:14.191 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Login as SuperUser" > 
+16:56:14.191 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Login as SuperUser" parameterizedStepValue:"Login as SuperUser" > > 
+16:56:14.196 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Access NewBee Website" > 
+16:56:14.196 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Access NewBee Website" parameterizedStepValue:"Access NewBee Website" > > 
+16:56:14.197 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Add HR Director as Reviewer <FirstName> <LastName> <Email> <AdminLevel> <Hive> <Job Position>" > 
+16:56:14.198 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Add HR Director as Reviewer {} {} {} {} {} {}" parameterizedStepValue:"Add HR Director as Reviewer <FirstName> <LastName> <Email> <AdminLevel> <Hive> <Job Position>" parameters:"FirstName" parameters:"LastName" parameters:"Email" parameters:"AdminLevel" parameters:"Hive" parameters:"Job Position" > > 
+16:56:14.200 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Enter UserID <UserId>" > 
+16:56:14.200 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Enter UserID {}" parameterizedStepValue:"Enter UserID <UserId>" parameters:"UserId" > > 
+16:56:14.200 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Enter Password <Password>" > 
+16:56:14.201 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Enter Password {}" parameterizedStepValue:"Enter Password <Password>" parameters:"Password" > > 
+16:56:21.794 # User Creation & User Login
+16:56:21.797 ## Test AdminLevel, Hive, JobPosition Validations for all 3 Directors
+16:56:21.800 * Access NewBee Website
+
+16:56:25.536 * Login as SuperUser
+
+16:56:26.829 Failed Step: Login as SuperUser
+16:56:26.829 Error Message: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"class name","selector":"menu-staff-right"}
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 23 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'DESKTOP-TELPMTR', ip: '172.16.1.159', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:65203}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e), userDataDir=C:\Users\KARTHI~1\AppData\Local\Temp\scoped_dir9160_24776}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=68.0.3440.106, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 771657ed66522b4dba8cb9bf231f106a
+*** Element info: {Using=class name, value=menu-staff-right}
+16:56:26.829 Specification: specs\Login.spec:23
+16:56:26.829 Stacktrace: 
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
+org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:457)
+org.openqa.selenium.By$ByClassName.findElement(By.java:391)
+org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
+Gauge.StepImplementation.LoginSuperUser(StepImplementation.java:52)
+16:56:28.012 Plugin [Xml Report] with pid [16176] has exited
+16:56:28.012 Plugin [Html Report] with pid [8856] has exited
+16:56:28.012 Plugin [Flash] with pid [8812] has exited
+16:56:28.313 Specifications:	1 executed	0 passed	1 failed	0 skipped
+16:56:28.313 Scenarios:	1 executed	0 passed	1 failed	0 skipped
+16:56:28.313 
+Total time taken: 12.354s
+16:56:56.566 Plugin java is already installed.
+16:56:56.566 Plugin html-report is already installed.
+16:56:56.567 Plugin xml-report is already installed.
+16:56:56.567 Plugin flash is already installed.
+16:56:56.574 The following specifications satisfy filter criteria:
+16:56:56.574 specs\Login.spec
+16:56:57.371 Checking updates...
+16:56:59.333 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Click Login Button" > 
+16:56:59.333 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Click Login Button" parameterizedStepValue:"Click Login Button" > > 
+16:56:59.341 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Login as SuperUser" > 
+16:56:59.341 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Login as SuperUser" parameterizedStepValue:"Login as SuperUser" > > 
+16:56:59.343 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Access NewBee Website" > 
+16:56:59.343 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Access NewBee Website" parameterizedStepValue:"Access NewBee Website" > > 
+16:56:59.344 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Add HR Director as Reviewer <FirstName> <LastName> <Email> <AdminLevel> <Hive> <Job Position>" > 
+16:56:59.344 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Add HR Director as Reviewer {} {} {} {} {} {}" parameterizedStepValue:"Add HR Director as Reviewer <FirstName> <LastName> <Email> <AdminLevel> <Hive> <Job Position>" parameters:"FirstName" parameters:"LastName" parameters:"Email" parameters:"AdminLevel" parameters:"Hive" parameters:"Job Position" > > 
+16:56:59.346 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Enter UserID <UserId>" > 
+16:56:59.346 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Enter UserID {}" parameterizedStepValue:"Enter UserID <UserId>" parameters:"UserId" > > 
+16:56:59.346 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Enter Password <Password>" > 
+16:56:59.346 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Enter Password {}" parameterizedStepValue:"Enter Password <Password>" parameters:"Password" > > 
+16:57:06.940 # User Creation & User Login
+16:57:06.943 ## Test AdminLevel, Hive, JobPosition Validations for all 3 Directors
+16:57:06.947 * Access NewBee Website
+
+16:57:11.083 * Login as SuperUser
+
+16:57:12.373 Failed Step: Login as SuperUser
+16:57:12.373 Error Message: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"class name","selector":"menu-staff-right"}
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 24 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'DESKTOP-TELPMTR', ip: '172.16.1.159', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:65260}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e), userDataDir=C:\Users\KARTHI~1\AppData\Local\Temp\scoped_dir12900_31457}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=68.0.3440.106, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: d662664b9dc41722c783d4e5afdbc02c
+*** Element info: {Using=class name, value=menu-staff-right}
+16:57:12.373 Specification: specs\Login.spec:23
+16:57:12.373 Stacktrace: 
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
+org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:457)
+org.openqa.selenium.By$ByClassName.findElement(By.java:391)
+org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
+Gauge.StepImplementation.LoginSuperUser(StepImplementation.java:52)
+16:57:13.636 Plugin [Xml Report] with pid [9012] has exited
+16:57:13.636 Plugin [Flash] with pid [7212] has exited
+16:57:13.636 Plugin [Html Report] with pid [11900] has exited
+16:57:13.937 Specifications:	1 executed	0 passed	1 failed	0 skipped
+16:57:13.937 Scenarios:	1 executed	0 passed	1 failed	0 skipped
+16:57:13.937 
+Total time taken: 12.876s

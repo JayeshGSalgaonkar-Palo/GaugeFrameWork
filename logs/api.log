@@ -3133,3 +3133,108 @@
 17:13:38.348 Spec file added / modified: C:\Users\Jayesh Salgaonkar\Project1\NewBee_1\specs\Login.spec
 17:45:19.995 Spec file removed: C:\Users\Jayesh Salgaonkar\Project1\NewBee_1\specs\Login.spec
 17:45:19.998 Spec file added / modified: C:\Users\Jayesh Salgaonkar\Project1\NewBee_1\specs\Login.spec
+18:20:46.608 Watching directory: C:\Karthik\Repositories\GaugeFrameWork\specs
+18:20:46.608 Found 3 files
+18:20:46.612 Initializing concepts cache with 1 concepts
+18:20:46.612 Adding concepts from C:\Karthik\Repositories\GaugeFrameWork\specs\Concepts.cpt
+18:20:46.620 Initializing specs cache with 2 specs
+18:20:46.620 Adding specs from C:\Karthik\Repositories\GaugeFrameWork\specs\example.spec
+18:20:46.620 Adding specs from C:\Karthik\Repositories\GaugeFrameWork\specs\Login.spec
+18:20:46.620 Initializing steps cache with 3 steps
+18:20:46.620 Gauge daemon initialized and listening on port: 62682
+18:21:17.099 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Login as SuperUser" > 
+18:21:17.107 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Login as SuperUser" parameterizedStepValue:"Login as SuperUser" > > 
+18:21:17.108 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Login as SuperUser" > 
+18:21:17.109 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Login as SuperUser" parameterizedStepValue:"Login as SuperUser" > > 
+18:21:17.118 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Login as SuperUser" > 
+18:21:17.118 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Login as SuperUser" parameterizedStepValue:"Login as SuperUser" > > 
+18:21:17.119 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Login as SuperUser" > 
+18:21:17.119 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Login as SuperUser" parameterizedStepValue:"Login as SuperUser" > > 
+18:21:32.149 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Access NewBee Website" > 
+18:21:32.260 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Access NewBee Website" parameterizedStepValue:"Access NewBee Website" > > 
+18:21:32.273 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Add HR Director as Reviewer \"FirstName\" \"LastName\" \"Email\" \"AdminLevel\" \"Hive\" \"Job Position\"" > 
+18:21:32.275 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Add HR Director as Reviewer {} {} {} {} {} {}" parameterizedStepValue:"Add HR Director as Reviewer <FirstName> <LastName> <Email> <AdminLevel> <Hive> <Job Position>" parameters:"FirstName" parameters:"LastName" parameters:"Email" parameters:"AdminLevel" parameters:"Hive" parameters:"Job Position" > > 
+18:21:32.572 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Go to Gauge Get Started Page" > 
+18:21:32.572 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Go to Gauge Get Started Page" parameterizedStepValue:"Go to Gauge Get Started Page" > > 
+18:21:32.589 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Go to Gauge Get Started Page" > 
+18:21:32.590 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Go to Gauge Get Started Page" parameterizedStepValue:"Go to Gauge Get Started Page" > > 
+18:21:32.593 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Ensure installation instructions are available" > 
+18:21:32.595 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Ensure installation instructions are available" parameterizedStepValue:"Ensure installation instructions are available" > > 
+18:21:32.599 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Ensure installation instructions are available" > 
+18:21:32.600 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Ensure installation instructions are available" parameterizedStepValue:"Ensure installation instructions are available" > > 
+18:21:32.722 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Open the Gauge homepage" > 
+18:21:32.722 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Open the Gauge homepage" parameterizedStepValue:"Open the Gauge homepage" > > 
+18:21:32.783 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Open the Gauge homepage" > 
+18:21:32.784 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Open the Gauge homepage" parameterizedStepValue:"Open the Gauge homepage" > > 
+18:21:32.804 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Type UserName <UserName>" > 
+18:21:32.804 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Type UserName {}" parameterizedStepValue:"Type UserName <UserName>" parameters:"UserName" > > 
+18:21:32.902 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Type UserName <UserName>" > 
+18:21:33.047 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Type UserName {}" parameterizedStepValue:"Type UserName <UserName>" parameters:"UserName" > > 
+18:21:33.049 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Enter UserID <UserId>" > 
+18:21:33.049 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Enter UserID {}" parameterizedStepValue:"Enter UserID <UserId>" parameters:"UserId" > > 
+18:21:33.052 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Enter UserID <UserId>" > 
+18:21:33.052 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Enter UserID {}" parameterizedStepValue:"Enter UserID <UserId>" parameters:"UserId" > > 
+18:21:33.053 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Enter Password <Password>" > 
+18:21:33.054 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Enter Password {}" parameterizedStepValue:"Enter Password <Password>" parameters:"Password" > > 
+18:21:33.054 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Enter Password <Password>" > 
+18:21:33.054 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Enter Password {}" parameterizedStepValue:"Enter Password <Password>" parameters:"Password" > > 
+18:21:33.055 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Click Login Button" > 
+18:21:33.055 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Click Login Button" parameterizedStepValue:"Click Login Button" > > 
+18:21:33.059 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Click Login Button" > 
+18:21:33.059 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Click Login Button" parameterizedStepValue:"Click Login Button" > > 
+18:21:33.158 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Add HR Director as Reviewer <FirstName> <LastName> <Email> <AdminLevel> <Hive> <Job Position>" > 
+18:21:33.159 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Add HR Director as Reviewer {} {} {} {} {} {}" parameterizedStepValue:"Add HR Director as Reviewer <FirstName> <LastName> <Email> <AdminLevel> <Hive> <Job Position>" parameters:"FirstName" parameters:"LastName" parameters:"Email" parameters:"AdminLevel" parameters:"Hive" parameters:"Job Position" > > 
+18:21:33.161 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Add HR Director as Reviewer <FirstName> <LastName> <Email> <AdminLevel> <Hive> <Job Position>" > 
+18:21:33.161 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Add HR Director as Reviewer {} {} {} {} {} {}" parameterizedStepValue:"Add HR Director as Reviewer <FirstName> <LastName> <Email> <AdminLevel> <Hive> <Job Position>" parameters:"FirstName" parameters:"LastName" parameters:"Email" parameters:"AdminLevel" parameters:"Hive" parameters:"Job Position" > > 
+18:22:27.775 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"* Enter UserID <UserId>" > 
+18:22:27.775 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"* Enter UserID {}" parameterizedStepValue:"* Enter UserID <UserId>" parameters:"UserId" > > 
+18:22:27.930 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"* Click Login Button" > 
+18:22:27.930 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"* Click Login Button" parameterizedStepValue:"* Click Login Button" > > 
+18:22:27.931 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"* Enter Password <Password>" > 
+18:22:27.932 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"* Enter Password {}" parameterizedStepValue:"* Enter Password <Password>" parameters:"Password" > > 
+13:57:47.236 Watching directory: C:\Karthik\Repositories\GaugeFrameWork\specs
+13:57:47.238 Found 3 files
+13:57:47.261 Initializing concepts cache with 1 concepts
+13:57:47.261 Adding concepts from C:\Karthik\Repositories\GaugeFrameWork\specs\Concepts.cpt
+13:57:47.282 Initializing specs cache with 2 specs
+13:57:47.282 Adding specs from C:\Karthik\Repositories\GaugeFrameWork\specs\example.spec
+13:57:47.282 Adding specs from C:\Karthik\Repositories\GaugeFrameWork\specs\Login.spec
+13:57:47.282 Initializing steps cache with 3 steps
+13:57:47.282 Gauge daemon initialized and listening on port: 63973
+13:58:24.764 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Login as SuperUser" > 
+13:58:24.767 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Login as SuperUser" parameterizedStepValue:"Login as SuperUser" > > 
+13:58:28.346 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Go to Gauge Get Started Page" > 
+13:58:28.346 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Go to Gauge Get Started Page" parameterizedStepValue:"Go to Gauge Get Started Page" > > 
+13:58:28.557 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Ensure installation instructions are available" > 
+13:58:28.557 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Ensure installation instructions are available" parameterizedStepValue:"Ensure installation instructions are available" > > 
+13:58:28.898 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Open the Gauge homepage" > 
+13:58:28.898 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Open the Gauge homepage" parameterizedStepValue:"Open the Gauge homepage" > > 
+13:58:28.983 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Type UserName <UserName>" > 
+13:58:28.983 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Type UserName {}" parameterizedStepValue:"Type UserName <UserName>" parameters:"UserName" > > 
+13:58:29.247 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Access NewBee Website" > 
+13:58:29.247 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Access NewBee Website" parameterizedStepValue:"Access NewBee Website" > > 
+13:58:29.334 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Enter UserID <UserId>" > 
+13:58:29.335 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Enter UserID {}" parameterizedStepValue:"Enter UserID <UserId>" parameters:"UserId" > > 
+13:58:29.403 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Enter Password <Password>" > 
+13:58:29.403 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Enter Password {}" parameterizedStepValue:"Enter Password <Password>" parameters:"Password" > > 
+13:58:29.466 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Click Login Button" > 
+13:58:29.466 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Click Login Button" parameterizedStepValue:"Click Login Button" > > 
+13:58:29.681 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Add HR Director as Reviewer <FirstName> <LastName> <Email> <AdminLevel> <Hive> <Job Position>" > 
+13:58:29.681 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Add HR Director as Reviewer {} {} {} {} {} {}" parameterizedStepValue:"Add HR Director as Reviewer <FirstName> <LastName> <Email> <AdminLevel> <Hive> <Job Position>" parameters:"FirstName" parameters:"LastName" parameters:"Email" parameters:"AdminLevel" parameters:"Hive" parameters:"Job Position" > > 
+13:58:29.846 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Add HR Director as Reviewer \"FirstName\" \"LastName\" \"Email\" \"AdminLevel\" \"Hive\" \"Job Position\"" > 
+13:58:29.846 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Add HR Director as Reviewer {} {} {} {} {} {}" parameterizedStepValue:"Add HR Director as Reviewer <FirstName> <LastName> <Email> <AdminLevel> <Hive> <Job Position>" parameters:"FirstName" parameters:"LastName" parameters:"Email" parameters:"AdminLevel" parameters:"Hive" parameters:"Job Position" > > 
+13:58:29.850 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"* Enter UserID <UserId>" > 
+13:58:29.852 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"* Enter UserID {}" parameterizedStepValue:"* Enter UserID <UserId>" parameters:"UserId" > > 
+13:58:29.853 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"* Click Login Button" > 
+13:58:29.853 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"* Click Login Button" parameterizedStepValue:"* Click Login Button" > > 
+13:58:29.853 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"* Enter Password <Password>" > 
+13:58:29.854 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"* Enter Password {}" parameterizedStepValue:"* Enter Password <Password>" parameters:"Password" > > 
+15:24:05.306 Watching directory: C:\Karthik\Repositories\GaugeFrameWork\specs
+15:24:05.307 Found 3 files
+15:24:05.316 Initializing concepts cache with 1 concepts
+15:24:05.316 Adding concepts from C:\Karthik\Repositories\GaugeFrameWork\specs\Concepts.cpt
+15:24:05.326 Initializing specs cache with 2 specs
+15:24:05.326 Adding specs from C:\Karthik\Repositories\GaugeFrameWork\specs\example.spec
+15:24:05.326 Adding specs from C:\Karthik\Repositories\GaugeFrameWork\specs\Login.spec
+15:24:05.326 Initializing steps cache with 3 steps
+15:24:05.326 Gauge daemon initialized and listening on port: 64246

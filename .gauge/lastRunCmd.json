@@ -3,7 +3,7 @@
 		"gauge",
 		"run",
 		"--tags",
-		"UserCreation",
-		"--dir=C:\\Users\\Jayesh Salgaonkar\\Project1\\NewBee_1"
+		"Validations",
+		"--dir=C:\\Karthik\\Repositories\\GaugeFrameWork"
 	]
 }
