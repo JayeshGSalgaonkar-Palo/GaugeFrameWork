@@ -1,0 +1,10 @@
+
+\.gauge/failures\.json
+
+\.gauge/lastRunCmd\.json
+
+\.idea/vcs\.xml
+
+\.idea/workspace\.xml
+
+*.log
