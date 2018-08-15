@@ -11,6 +11,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
+import utils.WebElementDataStore;
 
 import java.util.Arrays;
 import java.util.Collections;
@@ -20,39 +21,10 @@ import java.util.concurrent.TimeUnit;
 import static org.assertj.core.api.Assertions.assertThat;
 
 public class StepImplementation {
-    @Step("Go to Gauge Get Started Page")
-    public void gotoGetStartedPage() throws InterruptedException {
-        WebElement getStartedButton = Driver.webDriver.findElement(By.xpath("//a[@class='link-get-started']"));
-        getStartedButton.click();
-
-        Gauge.writeMessage("Page title is %s", Driver.webDriver.getTitle());
-    }
-
-    @Step("Ensure installation instructions are available")
-    public void ensureInstallationInstructionsAreAvailable() throws InterruptedException {
-        WebElement instructions = Driver.webDriver.findElement(By.xpath("//p[@class='instruction']"));
-        assertThat(instructions).isNotNull();
-    }
-
-    @Step("Open the Gauge homepage")
-    public void implementation1() {
-        String app_url = System.getenv("APP_URL");
-        Driver.webDriver.get(app_url + "/");
-        assertThat(Driver.webDriver.getTitle()).contains("Gauge");
-    }
-
-    @Step("Type UserName <UserName>")
-    public void TypeUserName(String email) {
-
-
-        Driver.webDriver.findElement(By.id("email")).sendKeys(email);
-
-    }
 
     @ContinueOnFailure
     @Step("Access NewBee Website")
     public void OpenNewBee() {
-
         String app_url = System.getenv("APP_URL");
         Driver.webDriver.manage().deleteAllCookies();
         Driver.webDriver.manage().window().maximize();
@@ -60,31 +32,19 @@ public class StepImplementation {
         assertThat(Driver.webDriver.findElement(By.className("welcome-page-title")).getText()).contains("NewBee Portal");
     }
 
-
     @Step("Enter UserID <UserId>")
     public void EnterUserID(String email) {
-
-        Driver.webDriver.findElement(By.id("email")).sendKeys(email);
-
-//        WebElement userId =  Driver.webDriver.findElement(By.id("email"));
-//        userId.sendKeys(Keys.chord(Keys.CONTROL, "a"));
-//        Driver.webDriver.manage().timeouts().implicitlyWait(1, TimeUnit.SECONDS);
-//        userId.sendKeys(email);
-
+        WebElementDataStore.getWebElementByUniqueId("loginUserName").sendKeys(email);
     }
 
     @Step("Enter Password <Password>")
     public void EnterPassword(String password) {
-
-        Driver.webDriver.findElement(By.id("password")).sendKeys(password);
-
+        WebElementDataStore.getWebElementByUniqueId("loginPassword").sendKeys(password);
     }
 
     @Step("Click Login Button")
     public void ClickLoginButton() {
-
-        Driver.webDriver.findElement(By.className("welcome-page-input-submit")).click();
-
+        WebElementDataStore.getWebElementByUniqueId("loginButton").click();
     }
     @ContinueOnFailure
     @Step("Login as SuperUser")

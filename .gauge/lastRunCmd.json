@@ -1,0 +1,9 @@
+{
+	"Command": [
+		"gauge",
+		"run",
+		"--tags",
+		"Validations",
+		"--dir=C:\\Karthik\\Repositories\\GaugeFrameWork"
+	]
+}

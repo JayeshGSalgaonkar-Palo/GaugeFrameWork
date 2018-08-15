@@ -1,0 +1,5 @@
+uniqueId,findBy,value
+loginUserName,id,email
+loginPassword,id,password
+loginButton,class,welcome-page-input-submit
+loginVerification,class,menu-staff-right
