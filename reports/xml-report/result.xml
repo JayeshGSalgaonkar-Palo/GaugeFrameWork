@@ -1,7 +1,8 @@
 <testsuites>
-	<testsuite id="1" tests="1" failures="0" package="C:\Users\Jayesh Salgaonkar\Project1\NewBee_1\specs\Login.spec" time="5.092" timestamp="2018-08-14T14:39:49" name="User Creation &amp; User Login" errors="0" hostname="DESKTOP-MBF6RPR">
+	<testsuite id="1" tests="1" failures="0" package="C:\Users\Jayesh Salgaonkar\Documents\Project\Mapped with GitKraken\NewBee_1\specs\Login.spec" time="60.234" timestamp="2018-08-15T15:06:51" name="User Creation &amp; User Login" errors="0" hostname="DESKTOP-MBF6RPR">
 		<properties></properties>
-		<testcase classname="User Creation &amp; User Login" name="User Creation" time="5.092"></testcase>
+		<testcase classname="User Creation &amp; User Login" name="User Creation 1" time="31.776"></testcase>
+		<testcase classname="User Creation &amp; User Login" name="User Creation 2" time="28.458"></testcase>
 		<system-out></system-out>
 		<system-err></system-err>
 	</testsuite>
