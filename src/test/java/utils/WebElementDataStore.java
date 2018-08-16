@@ -10,10 +10,13 @@ import java.util.HashMap;
 
 public class WebElementDataStore {
 
-    public static WebElement getWebElementByUniqueId(String uniqueId){
-        HashMap<String, ArrayList> elementDefinitions = (HashMap<String, ArrayList>) DataStoreFactory.getSuiteDataStore().get("PageObjects");
-        String findBy = (String) elementDefinitions.get(uniqueId).get(0);
-        String value = (String) elementDefinitions.get(uniqueId).get(1);
+    public static WebElement getWebElementByPageAndUniqueId(String page, String uniqueId){
+        HashMap<String, HashMap<String, ArrayList<String>>> elementDefinitions =
+                (HashMap<String, HashMap<String, ArrayList<String>>>) DataStoreFactory
+                        .getSuiteDataStore()
+                        .get("PageObjects");
+        String findBy = elementDefinitions.get(page).get(uniqueId).get(0);
+        String value = elementDefinitions.get(page).get(uniqueId).get(1);
 
         switch (findBy.trim().toLowerCase()) {
             case "id":

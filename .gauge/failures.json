@@ -2,10 +2,10 @@
 	"Args": [
 		"run",
 		"--tags",
-		"Validations",
+		"UserCreation",
 		"--dir=C:\\Karthik\\Repositories\\GaugeFrameWork"
 	],
 	"FailedItems": [
-		"specs\\Login.spec:20"
+		"specs\\Login.spec:12"
 	]
 }

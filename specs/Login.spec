@@ -23,5 +23,5 @@ Tags: UserCreation
 ## Test AdminLevel, Hive, JobPosition Validations for all 3 Directors
 Tags: Validations
 
-//* Login as SuperUser
+* Login as SuperUser
 //* Duplicate Email address

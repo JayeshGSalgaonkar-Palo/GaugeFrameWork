@@ -1,0 +1,10 @@
+LoginPage
+uniqueId      | findBy       | value
+loginUserName | id           | email
+loginPassword | id           | password
+loginButton   | class        | welcome-page-input-submit
+
+LandingPage
+uniqueId                          | findBy      | value
+manageReviewerTab                 | cssselector | #main-app-area > div > div > div.body-admin > div > div.menu-staff > div.menu-staff-left > div:nth-child(3)
+manageReviewerTabPageVerification | xpath       | //*[@id="add-a-new-reviewer"]/div/div[1]

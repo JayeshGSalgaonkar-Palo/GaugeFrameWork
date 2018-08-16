@@ -3,7 +3,7 @@
 		"gauge",
 		"run",
 		"--tags",
-		"Validations",
+		"UserCreation",
 		"--dir=C:\\Karthik\\Repositories\\GaugeFrameWork"
 	]
 }

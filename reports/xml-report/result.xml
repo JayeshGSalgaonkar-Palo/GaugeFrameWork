@@ -1,8 +1,10 @@
 <testsuites>
-	<testsuite id="1" tests="1" failures="0" package="C:\Users\Jayesh Salgaonkar\Documents\Project\Mapped with GitKraken\NewBee_1\specs\Login.spec" time="60.234" timestamp="2018-08-15T15:06:51" name="User Creation &amp; User Login" errors="0" hostname="DESKTOP-MBF6RPR">
+	<testsuite id="1" tests="1" failures="1" package="C:\Karthik\Repositories\GaugeFrameWork\specs\Login.spec" time="66.072" timestamp="2018-08-16T16:58:13" name="User Creation &amp; User Login" errors="0" hostname="DESKTOP-TELPMTR">
 		<properties></properties>
-		<testcase classname="User Creation &amp; User Login" name="User Creation 1" time="31.776"></testcase>
-		<testcase classname="User Creation &amp; User Login" name="User Creation 2" time="28.458"></testcase>
+		<testcase classname="User Creation &amp; User Login" name="User Creation 1" time="34.942">
+			<failure message="Add HR Director as Reviewer &lt;FirstName&gt; &lt;LastName&gt; &lt;Email&gt; &lt;AdminLevel&gt; &lt;Hive&gt; &lt;Job Position&gt;&#xA;Step Execution Failure: &#39;org.junit.ComparisonFailure: expected:&lt;[1]&gt; but was:&lt;[0]&gt;&#39;" type="Add HR Director as Reviewer &lt;FirstName&gt; &lt;LastName&gt; &lt;Email&gt; &lt;AdminLevel&gt; &lt;Hive&gt; &lt;Job Position&gt;&#xA;Step Execution Failure: &#39;org.junit.ComparisonFailure: expected:&lt;[1]&gt; but was:&lt;[0]&gt;&#39;">sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#xA;sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)&#xA;sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#xA;Gauge.StepImplementation.AddReviewer(StepImplementation.java:113)&#xA;</failure>
+		</testcase>
+		<testcase classname="User Creation &amp; User Login" name="User Creation 2" time="31.130"></testcase>
 		<system-out></system-out>
 		<system-err></system-err>
 	</testsuite>

@@ -1,15 +1,9 @@
 package Gauge;
 
 import com.thoughtworks.gauge.ContinueOnFailure;
-import com.thoughtworks.gauge.Gauge;
 import com.thoughtworks.gauge.Step;
 import driver.Driver;
-import org.apache.commons.compress.archivers.ar.ArArchiveEntry;
-import org.assertj.core.api.AbstractCharSequenceAssert;
-import org.junit.Assert;
 import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 import utils.WebElementDataStore;
 
@@ -34,17 +28,17 @@ public class StepImplementation {
 
     @Step("Enter UserID <UserId>")
     public void EnterUserID(String email) {
-        WebElementDataStore.getWebElementByUniqueId("loginUserName").sendKeys(email);
+        WebElementDataStore.getWebElementByPageAndUniqueId("LoginPage", "loginUserName").sendKeys(email);
     }
 
     @Step("Enter Password <Password>")
     public void EnterPassword(String password) {
-        WebElementDataStore.getWebElementByUniqueId("loginPassword").sendKeys(password);
+        WebElementDataStore.getWebElementByPageAndUniqueId("LoginPage", "loginPassword").sendKeys(password);
     }
 
     @Step("Click Login Button")
     public void ClickLoginButton() {
-        WebElementDataStore.getWebElementByUniqueId("loginButton").click();
+        WebElementDataStore.getWebElementByPageAndUniqueId("LoginPage", "loginButton").click();
     }
     @ContinueOnFailure
     @Step("Login as SuperUser")
@@ -70,8 +64,10 @@ public class StepImplementation {
 
         // Click Manage Reviewer --> "Add Reviewer"
 
-        Driver.webDriver.findElement(By.cssSelector("#main-app-area > div > div > div.body-admin > div > div.menu-staff > div.menu-staff-left > div:nth-child(3)")).click();
-        assertThat(Driver.webDriver.findElement(By.xpath("//*[@id=\"add-a-new-reviewer\"]/div/div[1]")).getText().contains("Add a new reviewer"));
+        WebElementDataStore.getWebElementByPageAndUniqueId("LandingPage", "manageReviewerTab").click();
+        assertThat(WebElementDataStore
+                .getWebElementByPageAndUniqueId("LandingPage", "manageReviewerTabPageVerification")
+                .getText().contains("Add a new reviewer"));
 
         // Assert Reviewer Details Page & Enter details
 
